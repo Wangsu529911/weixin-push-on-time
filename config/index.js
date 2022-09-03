@@ -24,10 +24,10 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      //{name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
+      //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -55,8 +55,8 @@ export const config = {
      */
     FESTIVALS: [
       {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "节日", "name": "纪念日", "year": "2023", "date": "01-19"},
       {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
+      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
     ],
 
     /**
@@ -74,11 +74,11 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
+      {"keyword": "love_day", date: "2022-01-19"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
+      //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
+      //{"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
