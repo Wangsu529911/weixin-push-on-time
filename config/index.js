@@ -63,8 +63,9 @@ export const config = {
      * 限制重要节日的展示条目, 需要填写数字; 
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
+     * 默认是4
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -74,7 +75,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2022-01-19"},
+      {"keyword": "love_day", date: "2020-01-19"},
       // 结婚纪念日
       //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
