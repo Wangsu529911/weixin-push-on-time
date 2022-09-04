@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "158d1d53029246aef955602f8355809e",
 
     // 模板消息id
-    TEMPLATE_ID: "Tp3Fmyxt5yvY-Lwe5KenzCD4E6rQTrVdtm6BwrTCFgA",
+    TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "Tp3Fmyxt5yvY-Lwe5KenzCD4E6rQTrVdtm6BwrTCFgA",
+    CALLBACK_TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
 
 
     /**
@@ -57,6 +57,7 @@ export const config = {
       {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
       {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
       {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
+      {"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
     ],
 
     /**
