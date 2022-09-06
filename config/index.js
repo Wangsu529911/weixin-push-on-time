@@ -4,34 +4,32 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx544b2d50b18cdc23",
+    APP_ID: "wxa08edd0ce03b4788",
 
     // 公众号APP_SECRET
-    APP_SECRET: "158d1d53029246aef955602f8355809e",
+    APP_SECRET: "40887cadfd64feaf2b903705f7777c95",
 
     // 模板消息id
-    TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    TEMPLATE_ID: "G35TMiq2UGfMnhGJYe4WDhxhx3odbDhCuXPjq-9zNos",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    CALLBACK_TEMPLATE_ID: "G35TMiq2UGfMnhGJYe4WDhxhx3odbDhCuXPjq-9zNos",
 
 
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
+     *   {name: '阿淘仔.', id: "o0e276bklSRSYNPUVJfGzQyZVLKE"}, 
+     *
      * ]
      */
     USERS: [
-      //{name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-      {name: '小仙女', id: "osV6d56nzj2jlGvk2Q7RS_kmBmPc"}, 
-      //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      //{name: '阿淘仔.', id: "o0e276bklSRSYNPUVJfGzQyZVLKE"}, 
+      
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      {name: '慢慢,id: "o0e276af4QPTmfimZ94eWGCgHBb0"}, 
     ],
      
     /**
@@ -41,9 +39,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "山东",
+    PROVINCE: "陕西",
     // 所在城市
-    CITY: "聊城",
+    CITY: "安康",
 
     /** 重要节日相关 */
 
@@ -54,10 +52,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
-      {"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
+      {"type": "生日", "name": "阿淘仔.", "year": "2002", "date": "03-10"},
+      {"type": "生日", "name": "阿淘仔.", "year": "2002", "date": "03-10"},
+      {"type": "节日", "name": "第一次见面", "year": "2021", "date": "12-14"},
+      {"type": "节日", "name": "第一次吃饭", "year": "2021", "date": "12-14"},
     ],
 
     /**
@@ -76,13 +74,13 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2020-01-19"},
-      // 结婚纪念日
-      //{"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      //{"keyword": "ex_day", date: "2022-08-31"},
-      // sakana日
-      // {"keyword": "sakana_day", date: "2022-01-06"},
+      {"keyword": "love_day", date: "2022-04-03"},
+      // 吃饭纪念日
+      //{"keyword": "marry_day", date: "2021-12-14"},
+      // 第一次送礼物
+      //{"keyword": "gift_day", date: "2022-04-12"},
+      // 去对方家里
+      // {"keyword": "home_day", date: "2022-08-06"},
       // ... 
     ],
 
